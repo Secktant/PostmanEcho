@@ -11,7 +11,7 @@ public class PostmanEcho {
 // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("som data") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
                 .post("/post")
