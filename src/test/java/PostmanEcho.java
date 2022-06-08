@@ -5,13 +5,13 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class PostmanEcho {
     @Test
-    void shouldFinfTextToBody() {
+    void shouldFindfTextToBody() {
 
         // Given - When - Then
 // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("som data") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
                 .post("/post")
